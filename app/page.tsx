@@ -7,6 +7,11 @@ const APP_STORE_URL = "#";
 
 const features = [
   {
+    emoji: "📷",
+    title: "Turn Photos into Guides",
+    desc: "Snap a photo of a pot you love — Clay Boss analyzes it and generates a tailored making, firing, and glaze guide so you can recreate it yourself.",
+  },
+  {
     emoji: "🏺",
     title: "Any Project, Any Skill Level",
     desc: "Pinch pots to complex sculptural forms — Clay Boss generates guides tailored to exactly what you want to make.",
@@ -24,7 +29,7 @@ const features = [
 ];
 
 const steps = [
-  { num: "01", title: "Describe what you want to make", desc: "Type it in plain English — a celadon mug, a coiled vase, a hand-built bowl." },
+  { num: "01", title: "Describe or photograph your piece", desc: "Type in plain English — or snap a photo of a pot you want to recreate." },
   { num: "02", title: "AI generates your guide", desc: "Get a complete step-by-step guide: techniques, tools, clay type, drying times, temperatures." },
   { num: "03", title: "Create with confidence", desc: "Follow the guide in your studio. Save it, revisit it, refine your craft." },
 ];
@@ -70,7 +75,7 @@ export default function Home() {
                 <br />in minutes.
               </h1>
               <p className="text-xl text-stone-400 mb-10 max-w-lg mx-auto lg:mx-0">
-                Describe what you want to make. Clay Boss generates a complete guide — techniques, tools, clay types, kiln temps, and glaze tips.
+                Describe what you want to make — or snap a photo of a piece you love. Clay Boss turns it into a complete step-by-step guide: techniques, tools, clay types, kiln temps, and glaze tips.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a
@@ -89,6 +94,10 @@ export default function Home() {
               <div className="relative">
                 <div className="w-48 h-48 lg:w-64 lg:h-64 rounded-[2.5rem] overflow-hidden shadow-2xl shadow-clay-500/30 ring-1 ring-white/10">
                   <Image src={APP_ICON} alt="Clay Boss App" width={256} height={256} className="w-full h-full object-cover" />
+                </div>
+                {/* Photo feature callout */}
+                <div className="absolute -top-4 -left-4 bg-stone-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow-lg">
+                  📸 Turn photos into guides
                 </div>
                 {/* Floating badge */}
                 <div className="absolute -bottom-4 -right-4 bg-clay-500 text-white text-sm font-bold px-4 py-2 rounded-2xl shadow-lg">
