@@ -103,8 +103,8 @@ export default function PrivacyPage() {
             <h2 className="text-2xl font-bold text-stone-900 mb-4">Contact</h2>
             <p className="text-stone-600 leading-relaxed">
               Questions about this privacy policy? Email us at{" "}
-              <a href="mailto:white8767@gmail.com" className="text-clay-500 font-medium hover:underline">
-                white8767@gmail.com
+              <a href="mailto:support@clayboss.app" className="text-clay-500 font-medium hover:underline">
+                support@clayboss.app
               </a>
             </p>
           </section>

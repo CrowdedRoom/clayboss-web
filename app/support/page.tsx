@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "The app crashed or something isn't working",
-    a: "We're sorry about that! Email us at white8767@gmail.com with your device model and a description of what happened. We'll get back to you as fast as we can.",
+    a: "We're sorry about that! Email us at support@clayboss.app with your device model and a description of what happened. We'll get back to you as fast as we can.",
   },
   {
     q: "How does the AI guide generation work?",
@@ -54,10 +54,10 @@ export default function SupportPage() {
           <h2 className="text-2xl font-black mb-2">Get in touch</h2>
           <p className="text-clay-100 mb-4">Have a question not answered below? Email us directly — we respond within 24 hours.</p>
           <a
-            href="mailto:white8767@gmail.com"
+            href="mailto:support@clayboss.app"
             className="inline-block bg-white text-clay-600 font-bold px-6 py-3 rounded-2xl hover:bg-clay-50 transition-colors"
           >
-            white8767@gmail.com
+            support@clayboss.app
           </a>
         </div>
 
